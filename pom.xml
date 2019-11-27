@@ -5,7 +5,7 @@
 
 	<groupId>com.github.microprograms</groupId>
 	<artifactId>module_micro_api_pom</artifactId>
-	<version>4.0.0</version>
+	<version>5.0.0</version>
 	<packaging>pom</packaging>
 
 	<name>module_micro_api_pom</name>
@@ -126,7 +126,7 @@
 		<dependency>
 			<groupId>com.github.microprograms</groupId>
 			<artifactId>micro-refs</artifactId>
-			<version>4.0.0</version>
+			<version>4.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.microprograms</groupId>
