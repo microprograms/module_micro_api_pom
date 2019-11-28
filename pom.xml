@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.microprograms</groupId>
 	<artifactId>module_micro_api_pom</artifactId>
-	<version>5.0.0</version>
+	<version>6.0.0</version>
 	<packaging>pom</packaging>
 
 	<name>module_micro_api_pom</name>
@@ -126,12 +125,12 @@
 		<dependency>
 			<groupId>com.github.microprograms</groupId>
 			<artifactId>micro-refs</artifactId>
-			<version>4.1.0</version>
+			<version>5.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.microprograms</groupId>
 			<artifactId>micro-oss-mysql</artifactId>
-			<version>4.0.0</version>
+			<version>5.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>
