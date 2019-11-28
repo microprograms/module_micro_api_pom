@@ -4,7 +4,7 @@
 
 	<groupId>com.github.microprograms</groupId>
 	<artifactId>module_micro_api_pom</artifactId>
-	<version>9.0.0</version>
+	<version>10.0.0</version>
 	<packaging>pom</packaging>
 
 	<name>module_micro_api_pom</name>
@@ -38,7 +38,6 @@
 						<groupId>org.osgi</groupId>
 						<artifactId>org.osgi.core</artifactId>
 						<version>6.0.0</version>
-						<scope>provided</scope>
 					</dependency>
 				</dependencies>
 			</plugin>
