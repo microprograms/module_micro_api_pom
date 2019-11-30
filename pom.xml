@@ -4,7 +4,7 @@
 
 	<groupId>com.github.microprograms</groupId>
 	<artifactId>module_micro_api_pom</artifactId>
-	<version>14.0.0</version>
+	<version>14.1.0</version>
 	<packaging>pom</packaging>
 
 	<name>module_micro_api_pom</name>
@@ -26,18 +26,22 @@
 			<plugin>
 				<groupId>org.apache.felix</groupId>
 				<artifactId>maven-bundle-plugin</artifactId>
+				<inherited>true</inherited>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+				<inherited>true</inherited>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
+				<inherited>true</inherited>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
+				<inherited>true</inherited>
 			</plugin>
 		</plugins>
 
