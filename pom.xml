@@ -4,7 +4,7 @@
 
 	<groupId>com.github.microprograms</groupId>
 	<artifactId>module_micro_api_pom</artifactId>
-	<version>14.4.0</version>
+	<version>14.5.0</version>
 	<packaging>pom</packaging>
 
 	<name>module_micro_api_pom</name>
@@ -54,7 +54,6 @@
 							<goals>
 								<goal>update-sql</goal>
 							</goals>
-							<inherited>false</inherited>
 						</execution>
 					</executions>
 				</plugin>
