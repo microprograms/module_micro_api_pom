@@ -4,7 +4,7 @@
 
 	<groupId>com.github.microprograms</groupId>
 	<artifactId>module_micro_api_pom</artifactId>
-	<version>14.3.0</version>
+	<version>14.4.0</version>
 	<packaging>pom</packaging>
 
 	<name>module_micro_api_pom</name>
@@ -40,6 +40,7 @@
 					<version>9.11.0</version>
 					<executions>
 						<execution>
+							<id>core</id>
 							<phase>compile</phase>
 							<goals>
 								<goal>update-all-apis</goal>
@@ -48,6 +49,7 @@
 							</goals>
 						</execution>
 						<execution>
+							<id>sql</id>
 							<phase>compile</phase>
 							<goals>
 								<goal>update-sql</goal>
