@@ -4,7 +4,7 @@
 
 	<groupId>com.github.microprograms</groupId>
 	<artifactId>module_micro_api_pom</artifactId>
-	<version>16.4.0</version>
+	<version>16.5.0</version>
 	<packaging>pom</packaging>
 
 	<name>module_micro_api_pom</name>
@@ -37,7 +37,7 @@
 				<plugin>
 					<groupId>com.github.microprograms</groupId>
 					<artifactId>maven-micro-api-sdk-plugin</artifactId>
-					<version>9.16.0</version>
+					<version>9.17.0</version>
 					<executions>
 						<execution>
 							<id>core</id>
